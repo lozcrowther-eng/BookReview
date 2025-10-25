@@ -1,0 +1,40 @@
+{
+  "source": "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/MediaSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pick media",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Which one did you do?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 6
+        }
+      },
+      {
+        "comment": "",
+        "key": "Watch",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 23
+        }
+      }
+    ]
+  },
+  "version": 1
+}

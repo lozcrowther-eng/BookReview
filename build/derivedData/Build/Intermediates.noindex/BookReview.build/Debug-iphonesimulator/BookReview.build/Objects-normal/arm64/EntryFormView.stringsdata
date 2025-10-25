@@ -1,0 +1,184 @@
+{
+  "source": "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/EntryFormView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title & Creator",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Genre",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "What was it about?",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "What did you like about it?",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "What did you not like about it?",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "What would you like to remember?",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Was it a...",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Was it a...",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "When did you finish it?",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Book",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Audiobook",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mini Series",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Movie",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your recommendation",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Author(s)",
+        "location": {
+          "startingColumn": 95,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Actor(s)",
+        "location": {
+          "startingColumn": 109,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Genre",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Subgenre",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Next",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 102
+        }
+      }
+    ]
+  },
+  "version": 1
+}

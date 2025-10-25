@@ -1,0 +1,48 @@
+{
+  "source": "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/WelcomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Making an entry is as quick as answering 12 questions. Taking 5 minutes to log an entry after finishing a story helps you remember favourites and enables recommendations.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "to",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "BookReview",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Click to Start",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 39
+        }
+      }
+    ]
+  },
+  "version": 1
+}

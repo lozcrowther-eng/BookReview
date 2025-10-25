@@ -1,0 +1,119 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReview-primary.dia",
+    "emit-module-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReview-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReview-primary-emit-module.dia",
+    "pch" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReview-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReview-primary.swiftdeps"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/BookReviewApp.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/BookReviewApp~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/ContentView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Models/Entry.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/Entry~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/ViewModels/EntriesViewModel.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesViewModel~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/ActionSelectionView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/ActionSelectionView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/CompileListView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/CompileListView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/EntriesListView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntriesListView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/EntryFormView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/EntryFormView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/MediaSelectionView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/MediaSelectionView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/WelcomeView.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/WelcomeView~partial.swiftmodule"
+  },
+  "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/lawrencecrowther/amyapp/BookReview/build/Build/Intermediates.noindex/BookReview.build/Debug-iphonesimulator/BookReview.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

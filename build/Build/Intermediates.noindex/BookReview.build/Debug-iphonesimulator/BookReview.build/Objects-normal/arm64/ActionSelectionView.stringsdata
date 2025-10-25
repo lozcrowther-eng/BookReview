@@ -1,0 +1,48 @@
+{
+  "source": "/Users/lawrencecrowther/amyapp/BookReview/BookReview/Views/ActionSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Choose",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "What would you like to do?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 6
+        }
+      },
+      {
+        "comment": "",
+        "key": "Make an entry",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Amend an Entry",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Compile a list",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      }
+    ]
+  },
+  "version": 1
+}
