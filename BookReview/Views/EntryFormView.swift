@@ -6,19 +6,64 @@ struct EntryFormView: View {
 
     @State private var step: Int = 0
     @State private var entry: Entry
+    // optional callback for embedded usage so parent can react (e.g. hide the form)
+    private let onSave: (() -> Void)?
 
     private let genres = ["", "Crime/Thriller/Mystery", "Fantasy", "Horror", "Romance", "Science Fiction"]
 
-    init(existingEntry: Entry? = nil, initialMedia: MediaType = .book) {
+    init(existingEntry: Entry? = nil, initialMedia: MediaType = .book, onSave: (() -> Void)? = nil) {
         if let existing = existingEntry {
             _entry = State(initialValue: existing)
         } else {
             _entry = State(initialValue: Entry(mediaType: initialMedia))
         }
+        self.onSave = onSave
     }
 
     var body: some View {
-        VStack {
+        VStack(spacing: 12) {
+            // Top selection row: Watch or Read
+            VStack(spacing: 8) {
+                Text("Which one did you do?")
+                    .font(.title2)
+                    .bold()
+
+                HStack(spacing: 28) {
+                    // Watch option
+                    Button(action: { toggleToWatch() }) {
+                        VStack(spacing: 8) {
+                            Image(systemName: "eye")
+                                .font(.system(size: 36))
+                                .foregroundColor(isWatch ? Color.white : Color.primary)
+                                .padding(18)
+                                .background(isWatch ? Color.accentColor : Color.primary.opacity(0.06))
+                                .clipShape(Circle())
+                            Text("Watch")
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                        }
+                        .accessibilityLabel("Watch")
+                    }
+
+                    // Read option
+                    Button(action: { toggleToRead() }) {
+                        VStack(spacing: 8) {
+                            Image(systemName: "book.fill")
+                                .font(.system(size: 34))
+                                .foregroundColor(isRead ? Color.white : Color.primary)
+                                .padding(18)
+                                .background(isRead ? Color.accentColor : Color.primary.opacity(0.06))
+                                .clipShape(Circle())
+                            Text("Read")
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                        }
+                        .accessibilityLabel("Read")
+                    }
+                }
+            }
+
+            // Progress + existing content below
             ProgressView(value: Double(step), total: 7)
                 .padding()
 
@@ -26,6 +71,7 @@ struct EntryFormView: View {
                 switch step {
                 case 0:
                     Section(header: Text("Type")) {
+                        // keep the ability to choose sub-type (book vs audiobook, movie vs miniseries)
                         if entry.mediaType == .book || entry.mediaType == .audiobook {
                             Picker("Was it a...", selection: $entry.mediaType) {
                                 Text("Book").tag(MediaType.book)
@@ -40,12 +86,24 @@ struct EntryFormView: View {
                             .pickerStyle(.segmented)
                         }
 
-                        DatePicker("When did you finish it?", selection: Binding(get: { entry.dateFinished ?? Date() }, set: { entry.dateFinished = $0 }), displayedComponents: .date)
+                        // Side-by-side: Date on the left, Recommendation on the right
+                        HStack(alignment: .top) {
+                            VStack(alignment: .leading) {
+                                Text("When did you finish it?")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                DatePicker("", selection: Binding(get: { entry.dateFinished ?? Date() }, set: { entry.dateFinished = $0 }), displayedComponents: .date)
+                                    .labelsHidden()
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
 
-                        HStack {
-                            Text("Your recommendation")
-                            Spacer()
-                            RecommendationPicker(selection: $entry.recommendation)
+                            VStack(alignment: .trailing) {
+                                Text("Your recommendation")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                RecommendationPicker(selection: $entry.recommendation)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .trailing)
                         }
                     }
                 case 1:
@@ -119,28 +177,73 @@ struct EntryFormView: View {
         }
     }
 
-    private var stepTitle: String {
-        switch step {
-        case 0: return "Details"
-        case 1: return "Title & Creator"
-        case 2: return "Genre"
-        case 3: return "Plot"
-        case 4: return "What I liked"
-        case 5: return "What I didn't like"
-        case 6: return "Remember"
-        default: return ""
+    // MARK: - Helpers for top toggle
+    private var isWatch: Bool {
+        switch entry.mediaType {
+        case .movie, .miniseries: return true
+        default: return false
         }
     }
 
-    private var existingLabel: String { vm.entries.contains(where: { $0.id == entry.id }) ? "Update" : "Save" }
+    private var isRead: Bool {
+        switch entry.mediaType {
+        case .book, .audiobook: return true
+        default: return false
+        }
+    }
+
+    private func toggleToWatch() {
+        // default to .movie but keep previous sub-type if it was a miniseries
+        if entry.mediaType == .miniseries {
+            entry.mediaType = .miniseries
+        } else {
+            entry.mediaType = .movie
+        }
+    }
+
+    private func toggleToRead() {
+        // default to .book unless it was previously an audiobook
+        if entry.mediaType == .audiobook {
+            entry.mediaType = .audiobook
+        } else {
+            entry.mediaType = .book
+        }
+    }
+
+    // MARK: - Save / Labels / Titles
+    private var isExisting: Bool {
+        return vm.entries.contains(where: { $0.id == entry.id })
+    }
+
+    private var existingLabel: String {
+        return isExisting ? "Save" : "Add Entry"
+    }
+
+    private var stepTitle: String {
+        switch step {
+        case 0: return "Type"
+        case 1: return "Title & Creator"
+        case 2: return "Genre"
+        case 3: return "What was it about?"
+        case 4: return "What did you like?"
+        case 5: return "What did you not like?"
+        case 6: return "What would you like to remember?"
+        default: return "Entry"
+        }
+    }
 
     private func saveAndClose() {
-        if vm.entries.contains(where: { $0.id == entry.id }) {
+        if isExisting {
             vm.update(entry: entry)
         } else {
             vm.create(entry: entry)
         }
-        dismiss()
+        // notify parent if embedded
+        onSave?()
+        // only dismiss the view if we're not embedded (parent will handle closing)
+        if onSave == nil {
+            dismiss()
+        }
     }
 }
 

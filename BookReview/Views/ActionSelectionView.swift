@@ -1,13 +1,15 @@
 import SwiftUI
 
 struct ActionSelectionView: View {
+    @EnvironmentObject var vm: EntriesViewModel
+    
     var body: some View {
         VStack(spacing: 24) {
             Text("What would you like to do?")
                 .font(.title2)
                 .bold()
 
-            NavigationLink(destination: MediaSelectionView()) {
+            NavigationLink(destination: EntryFormView(existingEntry: nil, initialMedia: .book).environmentObject(vm)) {
                 HStack {
                     Image(systemName: "plus.circle")
                     Text("Make an entry")
